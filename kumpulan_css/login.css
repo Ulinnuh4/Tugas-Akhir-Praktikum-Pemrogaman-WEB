@@ -1,0 +1,33 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.kontainer-1{
+    width: 25%;
+    background: #ebebeb;
+    margin: 130px auto 0 auto;
+    padding: 10px 20px;
+    box-shadow:inset 7px 7px 10px #d6d6d6,
+                inset -7px -7px 14px #fff;
+    border-radius: 10px;
+}
+.kontainer-1 h1{
+    font-weight: 700;
+}
+.bodyy{
+    background-color: #efefef;
+}
+.daftar{
+    border: none;
+    background-color: #4d92ed;
+    padding: 4px 20px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+input{
+    background: #cecece;
+    box-shadow:inset 2px 2px 5px #b5b5b5,
+                 inset -7px -7px 14px #fff;
+}

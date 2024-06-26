@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+.boy{
+    background-color: #ebebeb;
+}
+.kontainer-carosel{
+    box-shadow:  5px 5px 9px #9f9f9f,
+                 -5px -5px 9px #ffffff;
+}
+.login a{
+    text-decoration: none;
+    margin-right: 10px
+}
+.sign-in{
+    background-color: #138e8a;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+    border: 1px solid #138e8a;
+}
+.sign-up{
+    border: 1px solid #138e8a;
+    padding: 4px 20px;
+    color: #000;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+.navbar-nav li a{
+    transition: 0.2s ease-in-out;
+}
+.keranjang i{
+    font-size: 30px;
+    margin-right: 20px;
+}
+.navbar-nav li a:hover{
+    transition: 0.2s ease-in-out;
+    border-bottom: 1px solid #138e8a;
+}
+.sign-in:hover{
+    border: 1px solid #138e8a;
+    padding: 4px 20px;
+    background: none;
+    color: #000;
+}
+.sign-up:hover{
+    background-color: #138e8a;
+    color: #fff;
+}
+.carousel-inner{
+    height: 650px;
+    width: 100%;
+}
+.carousel-item{
+    width: 100%;
+    height: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
+/* PRODUK TERBARU */
+.kartu{
+    background: #e0e0e0;
+    box-shadow:  5px 5px 9px #9f9f9f,
+                 -5px -5px 9px #ffffff;
+    border-radius: 5px;
+    filter: drop-shadow(2px 2px 5px rgba(0,0,0,0.2));
+    
+}
+.gambar-produk{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 310px;
+}
+.gambar-produk .produk{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(2px 2px 10px rgba(0,0,0,0.5));
+    transition: 0.2s linear;
+}
+.gambar-produk img:hover{
+    transform: scale(1.1);
+}
+.deskripsi-produk h6{
+    color: #138e8a;
+}
+.produk-terbaru span{
+    color: #138e8a;
+}
+.produk-terbaru h1{
+    letter-spacing: 2px;
+}
+.pesan{
+    text-decoration: none;
+    background-color: #138e8a;
+    color: #fff;
+    padding: 3px 15px;
+    border-radius: 5px;
+    transition: 0.2s ease-in-out;
+}
+.pesan:hover{
+    background-color: #1dbcb7;
+}
+.logout{
+    text-decoration: none;
+    background-color: #138e8a;
+    border-radius: 5px;
+    color: #fff;
+    padding: 3px 20px;
+    transition: 0.2s ease-in-out;
+}
+.logout:hover{
+    background-color: #1dbcb7;
+}
+.deskripsi-produk h3{
+    height: 50px;
+    font-size: 22px;
+}
+/*  */
+.gambar-about{
+    width: 100%;
+    margin: 0 auto;
+}
+.kontainer-about span{
+    color: #138e8a;
+}
+.kontainer-about h1{
+    letter-spacing: 2px;
+}
+.gambar-about .profil{
+    width: 150px;
+    box-shadow:  5px 5px 9px #767676,
+                 -5px -5px 9px #ffffff;
+}
+.kartu-about{
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  5px 5px 9px #9f9f9f,
+                 -5px -5px 9px #ffffff;
+}
+footer{
+    width: 50px;
+    line-height: 50px;
+    width: 100%;
+}
+footer p{
+    color: #fff;
+}
+.carousel-caption h5{
+    color: #28fdf6;
+}
+.carousel-item img{
+    filter: brightness(60%);
+}
+@media screen and (min-width:320px) and (max-width:540px){
+    .keranjang i{
+        font-size: 25px;
+    }
+    .login a{
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    .navbar-nav li a{
+        font-size: 14px;
+    }
+    .carousel-inner{
+        height: 300px;
+    }
+  .deskripsi-produk h3{
+    font-size: 20px;
+    }
+    .gambar-about .profil{
+        width: 100px;
+    }
+    .gambar-produk{
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+        height: 230px;
+    }
+}
